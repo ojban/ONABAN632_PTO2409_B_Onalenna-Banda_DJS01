@@ -1,27 +1,27 @@
 /* Reset some default styles for the page */
-body, p {
-    margin: 0;
-    padding: 0;
-    background-color: black;
+body,
+p {
+  margin: 0;
+  padding: 0;
+  background-color: black;
 }
 
+/* Styling for the body */
 body {
-    background-image: url('mars.gif');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; /* Center the background image */
-    /* background-attachment: fixed; Optional: Keeps the background fixed */
-    height: 100vh; /* Make the background fill the entire viewport height */
-    overflow: hidden; /* Hide any overflow content */
-    display: flex; /* Use flexbox to center the h1 vertically and horizontally */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+  background: url("mars.gif") center / cover no-repeat black;
+  height: 100vh; /* Ensure the background fills the entire viewport */
+  overflow: hidden; /* Hide any overflow content */
+
+  /* Center the h1 vertically and horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Style the h1 element */
 h1 {
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-    color: white; /* Change text color to white */
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: white; /* Set text color to white for better visibility */
 }
